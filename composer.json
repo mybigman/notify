@@ -20,5 +20,15 @@
             "src/Codecourse/Notify/functions.php"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codecourse\\Notify\\NotifyServiceProvider::class"
+            ],
+            "aliases": {
+                "Notify": "Codecourse\\Notify\\Facades\\Notify::class"
+            }
+        }
+    }
 }
