@@ -1,11 +1,17 @@
 {
-    "name": "codecourse/notify",
+    "name": "abr4xas/notify",
     "description": "Flexible flash notifications for Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Alex Garrett",
             "email": "alex@codecourse.com"
+        },
+        {
+            "name": "Angel Cruz",
+            "email": "me@abr4xas.org",
+            "homepage": "https://abr4xas.org",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -20,5 +26,15 @@
             "src/Codecourse/Notify/functions.php"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codecourse\\Notify\\NotifyServiceProvider::class"
+            ],
+            "aliases": {
+                "Notify": "Codecourse\\Notify\\Facades\\Notify::class"
+            }
+        }
+    }
 }
