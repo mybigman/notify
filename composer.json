@@ -30,10 +30,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codecourse\\Notify\\NotifyServiceProvider::class"
+                "Codecourse\\Notify\\NotifyServiceProvider"
             ],
             "aliases": {
-                "Notify": "Codecourse\\Notify\\Facades\\Notify::class"
+                "Notify": "Codecourse\\Notify\\Facades\\Notify"
             }
         }
     }
