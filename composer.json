@@ -35,5 +35,8 @@
                 "Notify": "Codecourse\\Notify\\Facades\\Notify"
             }
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
