@@ -26,7 +26,6 @@
             "src/Codecourse/Notify/functions.php"
         ]
     },
-    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
