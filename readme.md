@@ -1,7 +1,8 @@
 <p align="center">
     <img alt="Notify" src="https://s3.amazonaws.com/s3.codecourse.com/github/banners/notify.png">
 </p>
-## Install
+
+### Install
 
 Using Composer
 
@@ -23,9 +24,9 @@ Optionally include the Facade in `config/app.php` if you'd like.
 
 > Note, there is a notify() function available, so unless you really want to use the Facade, there's no need to include it.
 
-## Usage
+###  Usage
 
-### Basic
+#### Basic
 
 From your application, call the `flash` method with a message and type.
 
@@ -44,7 +45,7 @@ Within a view, you can now check if a flash message exists and output it.
 ```
 > Notify is front-end framework agnostic, so you're free to easily implement the output however you choose.
 
-### Options
+#### Options
 
 You can pass additional options to the `flash` method, which are then easily accessible within your view.
 
@@ -79,6 +80,6 @@ Then, in your view.
 
 > The above example uses SweetAlert, but the flexibily of Notify means you can easily use it with any JavaScript alert solution.
 
-## Issues and contribution
+#### Issues and contribution
 
 Just submit an issue or pull request through GitHub. Thanks!
