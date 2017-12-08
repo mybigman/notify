@@ -1,5 +1,6 @@
-![Notify](https://s3.amazonaws.com/s3.codecourse.com/github/banners/notify.png)
-
+<p align="center">
+    <img alt="Notify" src="https://s3.amazonaws.com/s3.codecourse.com/github/banners/notify.png">
+</p>
 ## Install
 
 Using Composer
@@ -69,10 +70,12 @@ Then, in your view.
             @endif
         });
     </script>
+    {{ Session::forget(notify()->message()) }}
 @endif
 ```
-
-![SweetAlert example](https://s3.amazonaws.com/s3.codecourse.com/github/notify/swal-example.png)
+<p align="center">
+    <img alt="SweetAlert example" src="https://s3.amazonaws.com/s3.codecourse.com/github/notify/swal-example.png">
+</p>
 
 > The above example uses SweetAlert, but the flexibily of Notify means you can easily use it with any JavaScript alert solution.
 
