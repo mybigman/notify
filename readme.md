@@ -7,7 +7,7 @@
 Using Composer
 
 ```
-composer require codecourse/notify
+composer require abr4xas/notify
 ```
 
 Add the service provider to `config/app.php`
